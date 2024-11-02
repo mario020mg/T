@@ -94182,7 +94182,7 @@ dA(a,b){var s,r=null,q=J.vi(3,t.QX)
 for(s=0;s<3;++s)q[s]=new A.hz(B.cX,$.ax())
 return A.aIQ(r,r,A.d2(A.a([new A.bb(B.db,A.mN(!0,B.bu,!1,r,!0,B.R,r,A.pA(),q[0],r,r,r,r,r,2,A.m8(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Nombre del Ejercicio ejemplo: Zumba",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),B.a6,!0,r,!0,r,!1,r,B.bO,r,r,r,r,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,!1,r,!0,r,B.c0,r,r,B.bz,B.br,r,r,r,r,r,r,r,B.aF,r,B.cI,r,r,r,r),r),new A.bb(B.db,A.mN(!0,B.bu,!1,r,!0,B.R,r,A.pA(),q[1],r,r,r,r,r,2,A.m8(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Numero de Plazas (Ejemplo 1, 2 , 3 ...)",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),B.a6,!0,r,!0,r,!1,r,B.bO,r,r,r,r,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,!1,r,!0,r,B.c0,r,r,B.bz,B.br,r,r,r,r,r,r,r,B.aF,r,B.cI,r,r,r,r),r),new A.bb(B.db,A.mN(!0,B.bu,!1,r,!0,B.R,r,A.pA(),q[2],r,r,r,r,r,2,A.m8(r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,"Horas De Entrenamiento (ejemplo: 12:00)",r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r),B.a6,!0,r,!0,r,!1,r,B.bO,r,r,r,r,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,!1,r,!1,r,!0,r,B.c0,r,r,B.bz,B.br,r,r,r,r,r,r,r,B.aF,r,B.cI,r,r,r,r),r),new A.bb(B.uU,A.ky(A.az("Guardar",r,r,r,r,r,r),new A.abr(this,b,q,a),r),r)],t.p),B.J,B.W,B.aM),r,r,r,r,r,r)}}
 A.abr.prototype={
-$0(){var s=0,r=A.J(t.H),q=this,p,o,n,m,l,k
+$0(){var s=0,r=A.J(t.H),q=this,p,o,n,m,l,k,j
 var $async$$0=A.F(function(a,b){if(a===1)return A.G(b,r)
 while(true)switch(s){case 0:p=q.b
 o=$.iB()
@@ -94190,11 +94190,12 @@ n=p.cN(0,o.gdj(),t.hq)
 m=t.R
 l=t.NN
 k=A.iP(p.b6(o,m).a,t.S,l)
-m=p.b6(o,m).a.h(0,0)
+j=q.a.e
+m=p.b6(o,m).a.h(0,j)
 p=A.a3((m==null?l.a(m):m).a,!0,t.CJ)
 o=q.c
 p.push(new A.dL(o[0].a.a,A.cU(o[1].a.a,null),o[2].a.a,A.a([],t.s)))
-k.n(0,q.a.e,A.bb4(new A.es(p)))
+k.n(0,j,A.bb4(new A.es(p)))
 J.bx(n).ee(n,new A.eY(k))
 A.dC(q.d,!1).jr(null)
 return A.H(null,r)}})
