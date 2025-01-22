@@ -1,11 +1,11 @@
 {
-    "name": "RB Hybrid Training",
-    "short_name": "RB Hybrid Training",
+    "name": "rb_hybrid_training",
+    "short_name": "rb_hybrid_training",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "##FFFFFF",
-    "theme_color": "#FFFFFF",
-    "description": "App Entrenamiento Híbrido",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
